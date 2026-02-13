@@ -1,0 +1,6 @@
+java -cp ".:constructorast:cup.jar" constructorast.Main ejemplos/array.txt
+java -cp ".:constructorast:cup.jar" constructorast.Main ejemplos/condicional.txt
+java -cp ".:constructorast:cup.jar" constructorast.Main ejemplos/struct.txt
+java -cp ".:constructorast:cup.jar" constructorast.Main ejemplos/punteros.txt
+java -cp ".:constructorast:cup.jar" constructorast.Main ejemplos/funcion.txt
+java -cp ".:constructorast:cup.jar" constructorast.Main ejemplos/arrayMultiDim.txt

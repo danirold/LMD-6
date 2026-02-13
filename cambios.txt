@@ -1,0 +1,6 @@
+1. En el apartado de punteros, no hemos implementado el uso de new y delete para la memoria dinámica.
+2. Hemos eliminado la operación elevar.
+3. Los bucles for solo podrán ser ascendentes.
+4. Hemos permitido que operaciones, tanto prefijas como infijas, cuyo tipo destino sea real 
+   permitan combinar enteros y reales. Además, permitimos inicializar variables reales a valores 
+   enteros.

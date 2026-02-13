@@ -1,0 +1,4 @@
+El lenguaje se puede probar del siguiente modo:
+	1. Ejecutando el script de bash compilar.sh, que compila el ConstructorAST.cup, el JFlex con el AnalizadorLexicoLMD6.l y compila todas las clases del ast.			  
+	2. Ejecutando uno de los ejemplos con una de las líneas del archivo pruebas.txt, que ejecutan  el Main de constructorAST, con el archivo correspondiente como entrada, y muestra por pantalla el AST, así como si se producen errores o no en el binding, en el tipado y en la generación de código.
+	La generación de código genera un archivo que hemos denominado código.wat, y escribiendo wat2wasm codigo.wat generamos el archivo wasm.
