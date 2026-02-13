@@ -1,0 +1,12 @@
+/#Ejemplo de punteros
+con sus operaciones de direccion de memoria (@) y acceso al contenido (?) /#
+
+ent main () {
+	real k = 5;
+	ent array[3] v1 = [0];
+	real punt p1 = @k;
+	ent array[3] punt p2 = @v1;
+	ent array[3] punt p3 = p2;
+	real x = ?p1 + 3;
+	return 0;
+}

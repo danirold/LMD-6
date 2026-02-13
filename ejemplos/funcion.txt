@@ -1,0 +1,23 @@
+ent func doble (ent num) {
+	ent doble = num*2;
+	return doble;
+}
+
+void func dobleRef (ent $ num) {
+	num = num*2;
+}
+
+ent main () {
+	ent i = 0;
+	while (i <= 10) {
+		ent res = doble(i);
+		ent resref;
+		dobleRef(resref);
+		real dobleReal = toReal(resref);
+		outEnt(res);
+		outEnt(resref);
+		outReal(dobleReal);
+		i += 1;
+	}
+	return 0;
+}

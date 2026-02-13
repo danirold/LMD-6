@@ -1,0 +1,16 @@
+ent main () {
+	real array [5] notas;
+	for (ent i = 0 to 4, i = i + 1) {
+		real notaAlum = inReal();
+		notas[i] = notaAlum;
+	}
+	real notaMedia = 0;
+	for (ent i = 0 to 4, i = i + 1) {
+		notaMedia += notas[i];
+	}
+	notaMedia /*= 5,0;
+	outReal(notaMedia);
+	ent notaMediaEnt = toEnt(notaMedia);
+	outEnt(notaMediaEnt);
+	return 0;
+}

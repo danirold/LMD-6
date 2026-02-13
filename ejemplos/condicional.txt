@@ -1,0 +1,20 @@
+ent func valorAbs (ent num) {
+	ent res;
+	if (num == 0) {
+		res = 0;
+	}
+	elsif (num > 0) {
+		res = num;
+	}
+	else {
+		res = -num;
+	}
+	return res;
+}
+
+ent main () {
+	ent num = inEnt();
+	ent valorabs = valorAbs(num);
+	outEnt(valorabs);
+	return 0;
+}

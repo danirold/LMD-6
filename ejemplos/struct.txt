@@ -1,0 +1,23 @@
+struct tJugador {
+	ent DNI;
+	ent edad;
+	real altura;
+	real peso;
+	bool diestro; #V indica que es diestro y F que es zurdo
+};
+
+ent main() {
+	tJugador jugador = {34567 : 32 : 1,56 : 56,1 : V};
+	jugador.diestro = V;
+	jugador.DNI = inEnt();
+	jugador.edad = 25;
+	jugador.altura = jugador.peso - 89,6;
+
+	ent i = 1;
+	repeat {
+		jugador.peso += 10;
+		i += 1;
+	} until (i <= 8)
+
+	return 0;
+}
